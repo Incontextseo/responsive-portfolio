@@ -193,7 +193,6 @@ input[type=text], input[type=email], textarea {
         height: 800px;
     }
     .main-content {
-        float: left;
         max-width: 640px;
         height: 80%;
         margin-left: 40px;
@@ -216,10 +215,41 @@ input[type=text], input[type=email], textarea {
         padding: 28px 0px 28px 0px;
     }
     .container {
-        height: 900px;
+        height: 1100px;
     }
     .main-content {
+        max-width: 510px;
         height: 80%;
+    }
+
+    .btn-1 {
+        top: 140px;
+        left: 20px;
+    }
+    
+    .btn-2 {
+        top: 140px;
+        left: 264px;
+    }
+    
+    .btn-3 {
+        top: 380px;
+        left: 20px;
+    }
+    
+    .btn-4 {
+        top: 380px;
+        left: 264px;
+    }
+    
+    .btn-5 {
+        top: 620px;
+        left: 20px;
+    }
+    
+    .btn-6 {
+        top: 620px;
+        left: 264px;
     }
 }
 
