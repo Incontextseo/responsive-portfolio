@@ -81,7 +81,7 @@ a:hover {
     border: 1px solid #dddddd;
     z-index: 2;
     margin: 20px auto;
-    height: 600px;
+    height: 1000px;
     padding: 20px;
     clear: both;
 }
@@ -148,6 +148,21 @@ p {
 
 .btn-6 {
     top: 380px;
+    left: 508px;
+}
+
+.btn-7 {
+    top: 620px;
+    left: 20px;
+}
+
+.btn-8 {
+    top: 620px;
+    left: 264px;
+}
+
+.btn-9 {
+    top: 620px;
     left: 508px;
 }
 
@@ -251,6 +266,21 @@ input[type=text], input[type=email], textarea {
         top: 620px;
         left: 264px;
     }
+            
+    .btn-7 {
+        top: 860px;
+        left: 20px;
+    }
+    
+    .btn-8 {
+        top: 860px;
+        left: 264px;
+    }
+    
+    .btn-9 {
+        top: 1000px;
+        left: 20px;
+    }
 }
 
 @media screen and (max-height: 640px) {
@@ -309,6 +339,21 @@ input[type=text], input[type=email], textarea {
     
     .btn-6 {
         top: 1340px;
+        left: 20px;
+    }
+        
+    .btn-7 {
+        top: 1580px;
+        left: 20px;
+    }
+    
+    .btn-8 {
+        top: 1820px;
+        left: 20px;
+    }
+    
+    .btn-9 {
+        top: 2060px;
         left: 20px;
     }
 } 
