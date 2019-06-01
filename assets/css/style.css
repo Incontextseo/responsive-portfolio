@@ -15,6 +15,10 @@ body {
     clear: both;
 }
 
+ul {
+  margin-left: 10px;  
+}
+
 .innerwrap {
     max-width: 960px;
     position: relative;
@@ -183,6 +187,7 @@ input[type=text], input[type=email], textarea {
 
 .site-footer {
     background-color: #666666;
+    color: #fff;
     display: block;
     z-index: 1;
     text-align: center;
@@ -194,7 +199,7 @@ input[type=text], input[type=email], textarea {
 
 @media screen and (max-width: 980px) {
     .innerwrap {
-        max-width: 900px;
+        max-width: 80%;
         height: 78px;
     }
     .logo {
@@ -205,38 +210,17 @@ input[type=text], input[type=email], textarea {
         padding: 28px 0px 28px 0px;
     }
     .container {
-        height: 800px;
+        height: 1700px;
     }
     .main-content {
-        max-width: 640px;
-        height: 80%;
+        max-width: 76%;
+        height: 90%;
         margin-left: 40px;
     }
     input[type=text], input[type=email], textarea {
         width: 80%;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .innerwrap {
-        max-width: 700px;
-        height: 74px;
-    }
-    .logo {
-        font-size: 18px;
-        padding: 28px 0px 28px 0px;
-    }
-    nav {
-        padding: 28px 0px 28px 0px;
-    }
-    .container {
-        height: 1100px;
-    }
-    .main-content {
-        max-width: 510px;
-        height: 80%;
-    }
-
+    
     .btn-1 {
         top: 140px;
         left: 20px;
@@ -278,14 +262,81 @@ input[type=text], input[type=email], textarea {
     }
     
     .btn-9 {
-        top: 1000px;
+        top: 1100px;
         left: 20px;
     }
 }
 
-@media screen and (max-height: 640px) {
+@media screen and (max-width: 768px) {
     .innerwrap {
-        max-width: 640px;
+        max-width: 80%;
+        height: 74px;
+    }
+    .logo {
+        font-size: 18px;
+        padding: 28px 0px 28px 0px;
+    }
+    nav {
+        padding: 28px 0px 28px 0px;
+    }
+    .container {
+        height: 1600px;
+    }
+    .main-content {
+        max-width: 76%;
+        height: 90%;
+        margin-left: 82px;
+    }
+    
+    .btn-1 {
+        top: 140px;
+        left: 20px;
+    }
+    
+    .btn-2 {
+        top: 140px;
+        left: 264px;
+    }
+    
+    .btn-3 {
+        top: 380px;
+        left: 20px;
+    }
+    
+    .btn-4 {
+        top: 380px;
+        left: 264px;
+    }
+    
+    .btn-5 {
+        top: 620px;
+        left: 20px;
+    }
+    
+    .btn-6 {
+        top: 620px;
+        left: 264px;
+    }
+            
+    .btn-7 {
+        top: 860px;
+        left: 20px;
+    }
+    
+    .btn-8 {
+        top: 860px;
+        left: 264px;
+    }
+    
+    .btn-9 {
+        top: 1100px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-height: 824px) {
+    .innerwrap {
+        max-width: 80%;
         height: 120px;
     }
     .logo {
@@ -300,7 +351,7 @@ input[type=text], input[type=email], textarea {
         font-size: 16px;
     }
     .container {
-        height: 2000px;
+        height: 2700px;
     }
     .main-content {
         height: 90%;
@@ -338,22 +389,22 @@ input[type=text], input[type=email], textarea {
     }
     
     .btn-6 {
-        top: 1340px;
+        top: 1345px;
         left: 20px;
     }
         
     .btn-7 {
-        top: 1580px;
+        top: 1590px;
         left: 20px;
     }
     
     .btn-8 {
-        top: 1820px;
+        top: 1835px;
         left: 20px;
     }
     
     .btn-9 {
-        top: 2060px;
+        top: 2080px;
         left: 20px;
     }
 } 
