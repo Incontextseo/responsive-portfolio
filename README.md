@@ -1,2 +1,2 @@
 # responsive-portfolio
-Responsive Portfolio
+https://incontextseo.github.io/responsive-portfolio/
