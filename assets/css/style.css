@@ -85,7 +85,7 @@ a:hover {
     border: 1px solid #dddddd;
     z-index: 2;
     margin: 20px auto;
-    height: 1200px;
+    height: 1600px;
     padding: 20px;
     clear: both;
 }
@@ -170,6 +170,21 @@ p {
     left: 508px;
 }
 
+.btn-10 {
+    top: 860px;
+    left: 20px;
+}
+
+.btn-11 {
+    top: 860px;
+    left: 264px;
+}
+
+.btn-12 {
+    top: 860px;
+    left: 508px;
+}
+
 
 input[type=submit] {
     background: #4aaaa5;
@@ -210,7 +225,7 @@ input[type=text], input[type=email], textarea {
         padding: 28px 0px 28px 0px;
     }
     .container {
-        height: 1700px;
+        height: 2050px;
     }
     .main-content {
         max-width: 76%;
@@ -265,6 +280,11 @@ input[type=text], input[type=email], textarea {
         top: 1100px;
         left: 20px;
     }
+
+    .btn-9 {
+        top: 1100px;
+        left: 264px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -280,7 +300,7 @@ input[type=text], input[type=email], textarea {
         padding: 28px 0px 28px 0px;
     }
     .container {
-        height: 1600px;
+        height: 2000px;
     }
     .main-content {
         max-width: 76%;
@@ -332,6 +352,11 @@ input[type=text], input[type=email], textarea {
         top: 1100px;
         left: 20px;
     }
+
+    .btn-10 {
+        top: 1100px;
+        left: 264px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -351,7 +376,7 @@ input[type=text], input[type=email], textarea {
         font-size: 16px;
     }
     .container {
-        height: 2700px;
+        height: 3500px;
     }
     .main-content {
         height: 90%;
@@ -405,6 +430,11 @@ input[type=text], input[type=email], textarea {
     
     .btn-9 {
         top: 2080px;
+        left: 20px;
+    }
+
+    .btn-10 {
+        top: 2325px;
         left: 20px;
     }
 } 
