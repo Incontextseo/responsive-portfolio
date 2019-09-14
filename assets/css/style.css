@@ -285,6 +285,16 @@ input[type=text], input[type=email], textarea {
         top: 1100px;
         left: 264px;
     }
+
+    .btn-11 {
+        top: 1340px;
+        left: 20px;
+    }
+
+    .btn-12 {
+        top: 1340px;
+        left: 264px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -355,6 +365,16 @@ input[type=text], input[type=email], textarea {
 
     .btn-10 {
         top: 1100px;
+        left: 264px;
+    }
+
+    .btn-11 {
+        top: 1340px;
+        left: 20px;
+    }
+
+    .btn-12 {
+        top: 1340px;
         left: 264px;
     }
 }
@@ -435,6 +455,16 @@ input[type=text], input[type=email], textarea {
 
     .btn-10 {
         top: 2325px;
+        left: 20px;
+    }
+
+    .btn-11 {
+        top: 2570px;
+        left: 20px;
+    }
+
+    .btn-12 {
+        top: 2815px;
         left: 20px;
     }
 } 
